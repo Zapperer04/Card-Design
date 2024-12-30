@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design the Card</title>
+    <style>
+        /* Outer Box Styling */
+        .Outerbox {
+            height: 650px;
+            width: 450px;
+            background-color: white;
+            border: 2px solid black;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 50px auto;
+        }
+
+        /* Inner Box Styling */
+        .box {
+            height: 600px;
+            width: 400px;
+            background-color: whitesmoke;
+            border: 2px solid black;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        /* Image Styling */
+        .box img {
+            max-width: 90%;
+            max-height: 90%;
+            margin: 5px;
+            border-radius: 5px;
+            margin-right: 20px;
+        }
+
+        .box p {
+            border: 2px solid black;
+            margin: 5px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+
+        .box .text {
+            margin: 0;
+        }
+
+        .des {
+            margin-top: 10px;
+            padding: 10px;
+            width: 100%;
+            text-align: left;
+        }
+
+        .read-more-btn {
+            display: inline-block;
+            margin: auto 0;
+            margin-top: 10px;
+            padding: 5px 5px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Outerbox">
+        <div class="box">
+            <img src="image.jpg" alt="Dal Lake" />
+            <div class="text">
+                <p>Lake</p>
+                <p>Kashmir</p>
+                <div class="des">
+                    <h1>Dal lake</h3>
+                        Dal Lake, a picturesque jewel in Srinagar, Kashmir, is renowned for its floating gardens
+                        ("shikaras"). These vibrant gardens, laden with flowers and vegetables, offer a unique and
+                        enchanting experience. The lake's serene beauty, with snow-capped mountains as a backdrop, makes
+                        it
+                        a must-visit destination
+                        <div>
+                            <a href="#" class="read-more-btn">Read More</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
